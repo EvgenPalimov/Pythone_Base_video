@@ -3,7 +3,7 @@
 """
 
 def max_number():
-  user_answer = input("Введите 3 числа через пробел: ")
+  user_answer = input("Введите числа через пробел: ")
   my_list = []
   for el in range(user_answer.count(" ") + 1):
     my_list = user_answer.split()
